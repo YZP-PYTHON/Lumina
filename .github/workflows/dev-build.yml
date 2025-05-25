@@ -25,8 +25,8 @@ jobs:
           cache-read-only: false
       - name: Setup Git Config
         run: |
-          git config --global user.email "ci@leavesmc.org"
-          git config --global user.name "LeavesMC CI"
+          git config --global user.email "yzp2369114@163.com"
+          git config --global user.name "yzp CI"
       - name: Apply Patches
         run: ./gradlew applyPatches
       - name: Create Leavesclip Jar
